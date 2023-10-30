@@ -1,0 +1,174 @@
+<h1>HTML</h1>
+<p>Lorem <strong>ipsum dolor</strong> <em>sit amet.</em>
+    <a href="#">Lorem, ipsum dolor.</a>
+    <a id="İkiKelimeBoslukOlamaz" class="birinci-sinif ikinci-sinif" data-id="" href="">
+    <div class=""id="tekbilgi" data-section=""  > </div>
+    <!--id (identity = kimlik)
+id kullanılan etiketin kimliğini belirtir. Biriciktir*(unique)* yani dökümanın 
+içindeki bir etikete yalnızca bir kez o id ismi verilebilir.
+class (sınıf)
+class, HTML etiketinin hangi sınıfta olduğunu belirmemizi sağlar. 
+Aynı sınıf adını birden fazla HTML etiketine verebiliriz.-->
+</a>
+</p>
+
+<p>Span:
+Lorem ipsum dolor, <strong>amet consectetur adipisicing elit.</strong> <span style="color:red">
+    Placeat, et!</span>
+</p>
+
+<p>
+<strong>
+    <em>Lorem ipsum dolor sit amet. </em>  
+</strong>
+   </p>
+   
+<hr>
+    Non, expedita?
+<div>
+
+<h2>Gorsellerle Calısmak</h2>
+<!--img-->
+<img src="images/1.jpg"alt="selena gomez">
+<a href="https://fashionista.com/2022/07/selena-gomez-alaia-paris-2022" height="200" width="200">
+   <img src="images/1.jpg"alt="selena gomez">
+</a>
+
+
+<h2>Görsel Çalıştırmak</h2>
+<!--
+    -baska bir websitesine git
+    -baska bir sayfaya git
+    -aynı sayfa içinde bir yere ID->bilgisine git
+    -mail at
+    -telefon at
+    href=""
+target
+Bağlantılı URL'nin bir göz atma bağlamının adı olarak görüntüleneceği yer (sekme, pencere veya <iframe>). Aşağıdaki anahtar kelimelerin, URL'nin nereye yükleneceği konusunda özel anlamları vardır:
+
+_self: geçerli tarama bağlamı. (Varsayılan)
+_blank: genellikle yeni bir sekmedir, ancak kullanıcılar tarayıcıları bunun yerine yeni bir pencere açacak şekilde yapılandırabilir.
+_parent: geçerli olanın üst tarama bağlamı. Ebeveyn yoksa, ._self
+_top: en üstteki tarama bağlamı (mevcut olanın atası olan "en yüksek" bağlam). Atası yoksa, gibi davranır._self
+
+-->
+
+<ul>
+    <li>
+        <a href="https://kodluyoruz.org" target="_blank"> <!--başka bir sayfaya gitmek-->
+            buraya gidelecek
+        </a>
+    </li>
+    <li>
+        <a href="iletisim.html" > 
+            İletisim Sayfası Git
+         </a>
+    </li>
+
+    <li>
+        <a href="#footer">
+En Alt Kısma Git
+        </a>
+    </li>
+    <li>
+        <a href="mailto:info@kodluyoruz.org">
+            Kodluyoruz'a mail at
+        </a>
+    </li>
+    <li>
+        <a href="tel:11256489248512">
+            Telefon ac
+        </a>
+    </li>
+</ul>
+
+</div>
+
+<h2>EMMET/ZEN CODİNG</h2>
+<!--
+    etiket isimlerini direk verebiliyoruz
+    + kardeş öğe
+    > içinde öğe
+    ^ yukarı çık ve öğe oluştur
+    * çarp ->p*3
+    lorem4->4 kelimelik lorem üretir
+    .->class
+    #->id
+
+-->
+<!--h1+p+p+h2+p+p+p+p-->
+<!--h1+p*2+h2+p*4-->
+<!--ul>li*5-->
+<!--ul>li*3^p+h3-->
+<!--p>lorem4-->
+<!--ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -hatalı->
+<!-ul>li*3>lorem1^p*2>lorem4^h3>lorem1-->
+<!--eğer bir şeyin içerisine girdiysek üstüne çıkmalıyız kardeş öğe oluşturamayız-->
+<!--noktada kullanımında boşluk olmamalı-->
+
+<h3 class="deneme">Lorem.</h3> <!--h3.deneme>lorem1-->
+<h3 id="idolussun">Lorem.</h3> <!--h3.deneme#idolussun>lorem1-->
+<h3 id="idolussun"></h3><!--h3#idolussun-->
+<h3 id="idolussun">Lorem.</h3><!--h3#idolussun>lorem1-->
+<h3 class="kodluyoruz html"></h3> <!--h3.kodluyoruz.html-->
+
+
+<h2 id="footer">En Alt Kısım </h2>
+<p>
+    Lorem ipsum dolor sit amet.
+</p>
+
+
+<h1>Listeler</h1>
+<!--
+    Sıralı Listeler->1,2,3,ordered list->ol
+    Sıralı Olmayan Listeler->*,*,* ,unordered list->ul
+    ->list item->li
+-->
+<ol>
+    <li>liste öğesi *1*</li>
+    <li>liste öğesi *2*</li>
+    <li>liste öğesi *3*</li>
+
+</ol>
+
+<ul>
+    <li>liste öğesi *1*</li>
+    <li>liste öğesi *2*</li>
+    <li>liste öğesi *3*</li>
+
+</ul>
+
+<p> En <b>Sevdiğim</b> Diziler ?</p>     <ol>
+    <li>FRİENDS</li>
+    <li>SEE</li>
+    <li>ÇERNOBİL</li>
+</ol>
+
+<ol type="I">   
+<li>Javascript</li>
+  <li>C#</li>
+  <li>Php</li>
+</ol>
+
+<ol type="A">   <li>Javascript</li>
+    <li>C#</li>
+    <li>Php</li>
+  </ol>
+
+  <ul>   <li>Çay</li>
+    <li>Türk Kahvesi</li>
+    <li>Süt</li>
+  </ul> 
+
+  <ul style="list-style-type:none">   <li>Çay</li>
+    <li>Türk Kahvesi</li>
+    <li>Süt</li>
+  </ul>
+
+  <ul style="list-style-type:square">   <li>Telefon</li>
+    <li>Bilgisayar</li>
+    <li>Yazıcı</li>
+  </ul>
+
+  
